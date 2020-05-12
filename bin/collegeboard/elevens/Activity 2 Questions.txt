@@ -1,0 +1,4 @@
+1. A deck is a collection of cards
+2. 6
+3. The suits remain the same, and so do the point values, except that face cards have value 10 and aces have value 1 or 11
+4. Suits may appear in any order. Ranks may be reordered as long as pointvalues are reordered in the same way. In card games where rank order is important, the sequence of elements in the ranks variable should be in order.

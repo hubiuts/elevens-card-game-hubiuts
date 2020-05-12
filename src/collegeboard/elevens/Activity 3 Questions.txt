@@ -1,0 +1,23 @@
+1. 
+static String flip(){
+    int rand = (int)(Math.random()*3);
+    return rand==0? "tails" : "heads";
+}
+
+2. 
+static boolean arePermutations(int [] first, int [] second){
+    int mult1 = 1;
+    int mult2 = 1;
+    int add1 = 0;
+    int add2 = 0;
+    for(int i = 0;i<first.length;i++){
+        mult1*=first[i];
+        mult2*=second[i];
+        add1+=first[i];
+        add2+=second[i];
+    }
+    return (mult1==mult2&&add1==add2);
+}
+
+3.
+0, 1, 1
