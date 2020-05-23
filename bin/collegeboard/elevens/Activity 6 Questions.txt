@@ -1,0 +1,17 @@
+1. 
+5 spades 6 clubs
+5 clubs 6 spades
+
+2. 
+Cards can only be eliminated in pairs
+A - 10
+2-9
+3-8
+4-7
+5-6
+JQK
+If the deck is removed, and there are only 3 cards left, then we know that all the pairs have been removed and the last 3 cards consist of face card.
+However, since face cards are elimintated in triplets, the last 3 must be JQK.
+
+3. 
+There is no strategy since it doens't matter in what order the plays are made in
