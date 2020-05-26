@@ -1,0 +1,9 @@
+1.
+They all require a deck and a board
+Similar functions and attributes, but different implementation
+some unique functions
+
+2. initialized in the Board class. The ElevensBoard constructor passes values to the super class
+
+3. 
+The methods are shared. The Abstract class provides a framework for the sub classes so that the subclasses can do their proper implementation.
